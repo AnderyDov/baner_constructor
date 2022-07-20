@@ -1,0 +1,33 @@
+@keyframes show_1 {
+  100%,
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50%,
+  70% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  90% {
+    opacity: 0;
+    transform: scale(0) translate(-800px, -300px) rotate(-1turn);
+  }
+}
+
+@keyframes show_2 {
+  100%,
+  0% {
+    opacity: 0;
+    transform: scale(0) translate(100px, -300px) rotateX(-4turn);
+  }
+  50%,
+  70% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  90% {
+    opacity: 0;
+    transform: scale(0.4) rotate(-1turn);
+  }
+}
